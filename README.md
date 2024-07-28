@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumpw@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gapxsumpw/tags). For example,
+
+```javascript
 import gapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumpw@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumpw@v0.2.2-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumpw@deno/mod.js';
 ```
 
 #### gapxsumpw( N, alpha, x, stride )
@@ -158,7 +163,7 @@ var v = gapxsumpw.ndarray( N, 5.0, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import gapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumpw@v0.2.2-deno/mod.js';
+import gapxsumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapxsumpw@deno/mod.js';
 
 var x;
 var i;
